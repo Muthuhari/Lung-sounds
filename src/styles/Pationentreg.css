@@ -1,0 +1,46 @@
+#main{
+  text-align: center;
+  width: 30rem;
+  height: auto;
+  margin: 5rem 30rem 5rem 30rem;
+  justify-content: center;
+  display: flex;
+ }
+
+ #sub-main{
+  border: 3px solid rgb(56, 45, 217);
+  border-radius: 25px;
+  background-color: rgb(86, 162, 210); 
+ }
+
+#imag{
+  padding-top: 5px;
+  justify-content: center;
+  display: grid;
+}
+
+
+.profile{
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+}
+
+#fields{
+  margin: 40px 0px;
+  
+}
+
+#lble{
+  font-size: 20px;
+
+}
+
+#fields > input{
+  width: 17rem;
+  border-radius: 25px;
+}
+
+button{
+  padding: 10px;
+}
