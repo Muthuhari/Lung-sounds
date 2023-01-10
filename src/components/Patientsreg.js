@@ -27,7 +27,7 @@ export default function App(){
         
         <div id="imag">
 
-            <img src="./img/AAAA.png" alt= "profile" className="w3-image profile"  />
+            <img src="./img/User.png" alt= "profile" className="w3-image profile"  />
 
         </div>
 
