@@ -1,8 +1,4 @@
-import { onAuthStateChanged, signOut } from "firebase/auth";
-import { useEffect, useState } from "react";
-import auth from "./components/firebase/firebase";
 import Login from "./components/Login";
-import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import SignUp_Patients from "./components/SignUp_Patients";
 import Patientsreg from "./components/Patientsreg";
