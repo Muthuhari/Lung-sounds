@@ -5,12 +5,14 @@
   margin: 5rem 30rem 5rem 30rem;
   justify-content: center;
   display: flex;
+  
  }
 
  #sub-main{
   border: 3px solid rgb(56, 45, 217);
   border-radius: 25px;
   background-color: rgb(86, 162, 210); 
+  padding: 100px;
  }
 
 #imag{

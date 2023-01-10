@@ -87,7 +87,6 @@ body{
 
 .HMain{
     display: flex;
-    /* border: 1px solid chocolate; */
     width: 100%;
     height: auto;
 }
@@ -105,19 +104,5 @@ body{
 
     
 }
-
-/*.heading{
-    padding: 30px;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    color: rgb(123, 32, 32)
-
-    
-}*/
 
 

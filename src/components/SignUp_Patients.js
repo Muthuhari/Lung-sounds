@@ -3,10 +3,6 @@ import { useState,useEffect } from "react"
 import { jwtVerify } from "jose";
 import Cookies from "js-cookie";
 import "../styles/SignUp_Patients.css";
-
-// import { storage } from "./db";
-// import { ref, getDownloadURL, uploadBytesResumable } from "firebase/storage";
-
 export default function App() {
 
   const [url, setURL] = useState('')
@@ -39,19 +35,16 @@ export default function App() {
   }
 
   const handler2 = async(event) => {
-    // const headers = {'Content-Type':'application/json',
-    //                 'Access-Control-Allow-Origin':'*',
-    //                 'Access-Control-Allow-Methods':'POST,PATCH,OPTIONS'
-    // }
+
     const formData = new FormData()
     formData.append('file',img)
-    const res  = await fetch('https://8000-dmnsangeeth-diagnosisof-m5oxb99fq9h.ws-us77.gitpod.io/predict',{
+    const res  = await fetch('https://res.cloudinary.com/drlx72mlc/image/upload/v1672690915/hzyxlhpotrzmekt9ekcm.jpg- methanat API connect link eka danna halo',{
     method:'POST',
-    // headers:headers,
+
     body:formData
     })
     const {predicted_class,confidence} = await res.json()
-    //to view consol
+
     console.log(predicted_class,confidence);
     set_predicted_class(predicted_class)
     set_confidence(confidence)

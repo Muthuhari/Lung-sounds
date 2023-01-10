@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgb(255, 255, 255);
-  opacity: 1; /* Firefox */
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,26 +8,16 @@
 }
 
 body {
-  /* background-image: "Yellow And Black Rosa Maria Banner YouTube Channel Art.png"; */
-  background: linear-gradient(90deg, #b5d1ee, #3dd7df);
+  background: linear-gradient(90deg, #b5d1ee, #5aa1e3);
 }
 
 .back {
   width: 100%;
   height: 100%;
-  background: url(https://hasindusithmin.github.io/certificates/Yellow%20And%20Black%20Rosa%20Maria%20Banner%20YouTube%20Channel%20Art.png);
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 150;
-}
-
-.container {
-  background-image: "Yellow And Black Rosa Maria Banner YouTube Channel Art.png";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 78vh;
 }
 
 
@@ -43,10 +27,8 @@ body {
   border: 3px solid rgb(45, 35, 157);
   border-radius: 10px;
   padding-right: 1rem;
-  background-color: #098eaf;
-  padding: 100px;
-  
-  
+  background-color: #0980af;
+    padding: 100px;
 }
 
 .content_2{

@@ -4,15 +4,11 @@
     align-items: center; 
     justify-content: center;
     
-    
-    
 }
 
-.demo2{
-    /* position: absolute; */
-    
+.demo2 {
     margin-top: 25px;
-    border: 1px solid red;
+    border: 1px solid rgb(87, 8, 8);
     background-color: rgb(75, 126, 185);
     width: 35rem;
     height: 10rem;
@@ -22,10 +18,6 @@
     box-sizing: border-box;
     border: 3px solid #ccc;
     border-radius: 10px;
-}
-
-.demo2_1{
-
 }
 
 .demo2_2{
@@ -57,24 +49,6 @@
     
 }
 
-.demo3{
-    margin-top: 25px;
-    margin-left: 5rem;
-    background-color: rgb(172, 228, 201);
-    width: 26rem;
-    height: 10rem;
-    box-sizing: border-box;
-    border: 8px solid rgb(212, 6, 6);
-    border-radius: 10px;
-    padding-left: 5rem;
-    padding-top: 2rem;
-    font-size: 25px;
-    font-weight: 800;
-    color: crimson;
-    justify-items: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 .text{
     display: flex;
     padding-left: 30rem;
@@ -93,14 +67,11 @@
   
 }
 
-.w3-panel1 .demo1{
-    /* margin: 3rem 3rem 3rem 3rem ; */
+.w3-panel1 .demo1 {
     width: 50rem;
     display: inline-block;
     padding-left: 0;
-    
 }
-
 .btn{
     display: flex;
     justify-content: right;
