@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 #main{
   text-align: center;
   width: 30rem;
@@ -5,6 +6,7 @@
   margin: 5rem 30rem 5rem 30rem;
   justify-content: center;
   display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
  }
 
@@ -13,12 +15,14 @@
   border-radius: 25px;
   background-color: rgb(86, 162, 210); 
   padding: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
 #imag{
   padding-top: 5px;
   justify-content: center;
   display: grid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -26,21 +30,25 @@
   height: 100px;
   width: 100px;
   border-radius: 130px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #fields{
   margin: 40px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 
 #lble{
   font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 #fields > input{
   width: 17rem;
   border-radius: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button{

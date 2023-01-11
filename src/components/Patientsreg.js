@@ -22,18 +22,11 @@ export default function App(){
 
   return (
     <div  id="main">
-      <div id="sub-main" >
-
-        
+      <div id="sub-main" >        
         <div id="imag">
-
             <img src="./img/User.png" alt= "profile" className="w3-image profile"  />
-
         </div>
-
-
         <div id="fields" >
-
           <label id = "lble">User Email</label><br/>
           <input ref={ emailRef } placeholder="Email"  /><br/>
           <label id = "lble">User passward</label><br/>

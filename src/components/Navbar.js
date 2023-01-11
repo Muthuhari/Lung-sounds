@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <div>
         <Nav className="nav">
-            <label className='logo'>Lung-Care</label>
+            <label className='logo'>Lung Project</label>
             <ul>
                 {auth && <li><a className='active' href= "#">{email}</a></li>}
                 {!auth && <li><a className='active' href= "/LogIn">Log-In</a></li>}

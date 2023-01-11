@@ -3,22 +3,10 @@
     display: grid;
     align-items: center; 
     justify-content: center;
-    
-}
+    padding-left: 100px;
+    }
 
-.demo2 {
-    margin-top: 25px;
-    border: 1px solid rgb(87, 8, 8);
-    background-color: rgb(75, 126, 185);
-    width: 35rem;
-    height: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    border-radius: 10px;
-}
+
 
 .demo2_2{
     padding-left: 20px;
@@ -38,7 +26,7 @@
 .demo2 > input{
     width: 330px;
     height: 80px;
-    background-color:rgb(162, 162, 241);
+    background-color: rgb(255, 255, 255);
     padding-left: 2rem;
     padding-top: 1.8rem;
     font-size: 16px;
@@ -48,6 +36,7 @@
     border-radius: 10px;
     
 }
+
 
 .text{
     display: flex;
@@ -68,10 +57,13 @@
 }
 
 .w3-panel1 .demo1 {
+    /* margin: 3rem 3rem 3rem 3rem ; */
     width: 50rem;
     display: inline-block;
     padding-left: 0;
+    
 }
+
 .btn{
     display: flex;
     justify-content: right;

@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Logout from "./components/Logout";
 function App() {
 
-
   return (
     <>
       <BrowserRouter>
