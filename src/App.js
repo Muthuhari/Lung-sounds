@@ -1,7 +1,7 @@
 import Login from "./components/Login";
 import Home from "./components/Home";
-import SignUp_Patients from "./components/SignUp_Patients";
-import Patientsreg from "./components/Patientsreg";
+import DataInput from "./components/DataInput";
+import SignUp from "./components/SignUp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Logout from "./components/Logout";
 function App() {
@@ -12,9 +12,9 @@ function App() {
       <Routes>
           <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Patientsreg />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="/logout" element={<Logout />} />
-          <Route path="/signup-patient" element={<SignUp_Patients />} />
+          <Route path="/DataInput" element={<DataInput />} />
       </Routes>
     </BrowserRouter>
     </>

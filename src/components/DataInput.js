@@ -2,7 +2,7 @@ import { async } from "@firebase/util";
 import { useState,useEffect } from "react"
 import { jwtVerify } from "jose";
 import Cookies from "js-cookie";
-import "../styles/SignUp_Patients.css";
+import "../styles/DataInput.css";
 export default function App() {
 
   const [url, setURL] = useState('')

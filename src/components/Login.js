@@ -25,7 +25,7 @@ const Login = () => {
         
 
         Cookies.set('jwt',jwt)
-        window.location.href = '/signup-patient'
+        window.location.href = '/DataInput'
         })
         .catch((error) => {
         const errorMessage = error.message;

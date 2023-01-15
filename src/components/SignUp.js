@@ -1,7 +1,8 @@
 import { useRef, useState } from "react";
 import { async } from "@firebase/util";
 import { signup } from "./firebase/firebase";
-import '../styles/Pationentreg.css';
+import '../styles/SignUp.css';
+import auth from './firebase/firebase';
 
 
 export default function App(){
