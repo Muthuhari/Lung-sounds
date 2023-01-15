@@ -4,6 +4,7 @@ import auth from './firebase/firebase';
 import {SignJWT} from "jose"
 import Cookies from 'js-cookie'
 import "../styles/login.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -61,6 +62,10 @@ const Login = () => {
                         <div style={{align:'center',margin:'auto'}}>Log in</div>
                     </button>
                     <br/>
+                    <p className="sinup_button">
+                            Don't have an account? <Link to="/signup">Create account</Link>{" "}
+                        </p>
+            
                     
                     
                 </div>

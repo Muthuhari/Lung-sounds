@@ -5,12 +5,14 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+        position: relative;
 }
 
 .nav{
-    background-color: rgb(53, 78, 201);
+    background-color: #3599dc;
         height: 100px;
     width: 100%;
+    padding-top: 1em;
 
 }
 
@@ -20,6 +22,7 @@
     line-height: 60px;
     padding: 0 100px;
     font-weight: bold;
+    padding-top: 2em;
     
 
 }

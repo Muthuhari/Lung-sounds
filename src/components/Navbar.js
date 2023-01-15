@@ -34,7 +34,7 @@ export default function Navbar() {
                 {!auth && <li><a className='active' href= "/LogIn">Log In</a></li>}
                 {auth && <li><a className='active' href= "/Logout">Log Out</a></li>}
                 
-                <li><a className='active' href= "/signup">Sign up</a></li>
+                <li><a className='active' href= "/signup">Sign Up</a></li>
             </ul>
             
         </Nav>

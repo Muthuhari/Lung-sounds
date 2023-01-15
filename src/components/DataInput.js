@@ -6,7 +6,7 @@ import "../styles/DataInput.css";
 export default function App() {
 
   const [url, setURL] = useState('')
-  const [img,setImg] = useState('')
+  const [wav,setImg] = useState('')
   const [predicted_class,set_predicted_class] = useState(null)
   const [confidence,set_confidence] = useState(null)
 
@@ -37,7 +37,7 @@ export default function App() {
   const handler2 = async(event) => {
 
     const formData = new FormData()
-    formData.append('file',img)
+    formData.append('file',wav)
     const res  = await fetch('https://res.cloudinary.com/drlx72mlc/image/upload/v1672690915/hzyxlhpotrzmekt9ekcm.jpg- methanat API connect link eka danna halo',{
     method:'POST',
 

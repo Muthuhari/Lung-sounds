@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Raleway, sans-serif;
+  
 }
 
 body {
@@ -22,19 +22,21 @@ body {
 .container {
 
   display: flex;
-    align-items: center;
+  align-items: center;
     justify-content: center;
     min-height: 90vh;
+  margin: 1rem 30rem 1rem 30rem;
   }
 
 .screen__content{
   display: flex;
   box-sizing: border-box;
   border: 3px solid rgb(45, 35, 157);
-  border-radius: 10px;
+  border-radius: 25px;
   padding-right: 1rem;
-  background-color: #0980af;
-    padding: 100px;
+  background-color: #3599dc;
+    padding: 70px;
+    margin: 1rem 30rem 10rem 30rem;
 }
 
 .content_2{
@@ -59,17 +61,12 @@ body {
   font-weight: 550;
 }
 
-.content_2 > h2{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.content_2>h2 {
   padding-left: 3rem;
   margin-bottom: 10px;
   color: rgb(10, 10, 9);
 }
-.patientsreg{
-  padding-left: 10rem;
-  color: rgb(55, 6, 233);
-  font-weight: 100;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
+.sinup_button {
+  color: aliceblue;
+  font-size: 15px;
 }
-
