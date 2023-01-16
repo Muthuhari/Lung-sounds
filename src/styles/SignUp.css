@@ -7,8 +7,6 @@
   margin: 2rem 30rem 3rem 30rem;
   justify-content: center;
   display: flex;
-
-
 }
 
 #sub-main {
@@ -16,40 +14,31 @@
   border-radius: 25px;
   background-color: #3599dc;
     padding: 28px;
-
 }
 
 #imag {
   padding-top: 5px;
   justify-content: center;
   display: grid;
-
 }
-
 
 .profile {
   height: 100px;
   width: 100px;
   border-radius: 100px;
-
 }
 
 #fields {
   margin: 30px 0px;
-
-
 }
 
 #lble {
   font-size: 20px;
-
-
 }
 
 #fields>input {
   width: 22rem;
   border-radius: 25px;
-
 }
 
 button {

@@ -1,4 +1,3 @@
-import { async } from "@firebase/util";
 import { useState,useEffect } from "react"
 import { jwtVerify } from "jose";
 import Cookies from "js-cookie";

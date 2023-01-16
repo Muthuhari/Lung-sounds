@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
-import { async } from "@firebase/util";
 import { signup } from "./firebase/firebase";
 import '../styles/SignUp.css';
-import auth from './firebase/firebase';
+import { Link } from "react-router-dom";
+
 
 
 export default function App(){
@@ -39,6 +39,9 @@ export default function App(){
           <br/><br/>
           <button disabled={loading} onClick={handlesignup}  >signup</button>
         </div>
+        <p className="sinup_button">
+        Do you already have an account? <Link to="/login">Login</Link>{" "}
+                        </p>
 
 
       </div>   
