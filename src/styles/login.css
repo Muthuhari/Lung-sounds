@@ -25,16 +25,16 @@ body {
   align-items: center;
     justify-content: center;
     min-height: 90vh;
-  margin: 1rem 30rem 1rem 30rem;
+  margin: 0.5rem 30rem 0.5rem 30rem;
   }
 
-.screen__content{
+.main__content {
   display: flex;
   box-sizing: border-box;
   border: 3px solid rgb(45, 35, 157);
-  border-radius: 25px;
+
   padding-right: 1rem;
-  background-color: #3599dc;
+  background-color: #dc8935;
     padding: 70px;
     margin: 1rem 30rem 10rem 30rem;
 }
@@ -53,19 +53,6 @@ body {
   
 }
 
-.content_2 > button{
-  display: grid;
-  justify-content: center;
-  padding: 10px 15px 10px 15px;
-  font-size: 15px;
-  font-weight: 550;
-}
-
-.content_2>h2 {
-  padding-left: 3rem;
-  margin-bottom: 10px;
-  color: rgb(10, 10, 9);
-}
 .sinup_button {
   color: aliceblue;
   font-size: 15px;

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Navbar.css'
+import '../styles/Home.css'
 
 
 export default function Home() {
@@ -8,10 +8,11 @@ export default function Home() {
         
         <div className='heading'>
           <h1> Lung Sounds Classification System </h1>
+        
+          <p>Group 11 - Onsight</p>
+       
         </div>
-      
-        
-        
-    </div>
+
+        </div>
   )
 }

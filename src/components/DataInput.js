@@ -5,10 +5,8 @@ import "../styles/DataInput.css";
 export default function App() {
 
   const [url, setURL] = useState('')
-  const [wav,setImg] = useState('')
-  const [predicted_class,set_predicted_class] = useState(null)
-  const [confidence,set_confidence] = useState(null)
-
+  const [wav,setWav] = useState('')
+ 
 
   const verify = async(tkn)=>{
     try {
@@ -27,7 +25,7 @@ export default function App() {
 
   const handler1 = (event) => {
     const file = event.target.files[0];
-    setImg(file)
+    setWav(file)
     const reader = new FileReader()
     const url = URL.createObjectURL(file);
     setURL(url);
@@ -37,40 +35,29 @@ export default function App() {
 
     const formData = new FormData()
     formData.append('file',wav)
-    const res  = await fetch('https://res.cloudinary.com/drlx72mlc/image/upload/v1672690915/hzyxlhpotrzmekt9ekcm.jpg- methanat API connect link eka danna halo',{
+    const res  = await fetch('https://res.cloudinary.com/drlx72mlc/image/upload/v1672690915/hzyxlhpotrzmekt9ekcm.jpg- methanat API connect link',{
     method:'POST',
 
     body:formData
     })
-    const {predicted_class,confidence} = await res.json()
-
-    console.log(predicted_class,confidence);
-    set_predicted_class(predicted_class)
-    set_confidence(confidence)
+    
   }
-
-
   return (
-    <div className="demo">
+    <div className="putaudio">
 
       <div className="w3-panel1">
         {
           url &&
-          <img src={url} className="demo1" />
+          <wav src={url} className="putaudio1" />
         }
       </div>
       <div className="text">
-      <div className="demo2">
-        <input type="file" className="demo2_1" onChange={handler1} />
+      <div className="putaudio2">
+        <input type="file" className="putaudio_1" onChange={handler1} />
         
-        <div className="demo2_2">
+        <div className="putaudio_2">
         <button  onClick={handler2} type="submit">send</button>
         </div>
-      </div>
-
-      <div className="demo3">
-        {predicted_class && <div>Predicted:{predicted_class}</div>}
-        {confidence && <div>Confidence:{confidence}</div>}
       </div>
       </div>
       
@@ -78,3 +65,57 @@ export default function App() {
   
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/*.heading img {
+  width: 100px;
+  height: 200px;
+  margin-top: 10px;
+}
+======================
+const [selectedOption, setSelectedOption] = useState("");
+
+  const options = [
+    { value: "", label: "Select Contact Number" },
+    { value: "1234567890", label: "1234567890" },
+    { value: "0987654321", label: "0987654321" },
+    { value: "1111111111", label: "1111111111" },
+  ];
+---
+<select
+            value={selectedOption}
+            onChange={(event) => setSelectedOption(event.target.value)}
+          >
+            {options.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select> */}

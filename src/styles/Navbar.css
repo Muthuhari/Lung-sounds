@@ -9,7 +9,7 @@
 }
 
 .nav{
-    background-color: #3599dc;
+    background-color: #dc8935;
         height: 100px;
     width: 100%;
     padding-top: 1em;
@@ -49,8 +49,11 @@
 }
 
 .nav > ul > li > a.active,a:hover{
-    background-color: rgb(6, 6, 6);
-    transition: 5s;
+    background-color: rgb(6, 18, 91);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 25px;
+        text-decoration: none;
 }
 
 .navf{

@@ -15,16 +15,18 @@ const Login = () => {
     const userSignin = ()=>{
         signInWithEmailAndPassword(auth, username, password)
         .then(async(userCredential) => {
-        // Signed in eka
+
+        // Signed in 
         const user = userCredential.user;
         console.log(user)
 
+       // create jwt
         const jwt  = await new SignJWT({user:user.uid,email:user.email})
             .setProtectedHeader({alg:'HS256',typ:'JWT'})
             .setExpirationTime('1h')
             .sign(new TextEncoder().encode('Hello-World'))
         
-
+       // save cookie
         Cookies.set('jwt',jwt)
         window.location.href = '/DataInput'
         })
@@ -37,36 +39,40 @@ const Login = () => {
         
         <div className='container' >              
         {}
-            <div className="screen__content">
-            
-                
-
+            <div className="main__content">
                 <div className='content_2'>
-                    <h2>User LogIn</h2>
+                   
                     <label>Enter username  :</label><br/>
-                    <input className="login__input" type='text' placeholder='UserName' value={username} 
+                    <input className="login__input" 
+                    type='text' 
+                    placeholder='User Name' 
+                    value={username} 
                     onChange={e=>{
                         e.preventDefault();
                         setUsername(e.target.value);
                     }}/> 
                     <br/><br/>
+                    
                     <label>Enter password :</label><br/>
-                    <input  className="login__input" type='password' placeholder="password" value={password}
+                    <input  className="login__input" 
+                    type='password' 
+                    placeholder="password" 
+                    value={password}
                     onChange={e=>{
                         e.preventDefault();
                         setPassword(e.target.value);
                     }} />
                     <br/><br/>
 
-                    <button onClick={userSignin} className="button login__submit">
+                    <button onClick={userSignin} 
+                     className="button login__submit">
                         <div style={{align:'center',margin:'auto'}}>Log in</div>
                     </button>
                     <br/>
                     <p className="sinup_button">
                             Don't have an account? <Link to="/signup">Create account</Link>{" "}
                         </p>
-            
-                    
+        
                     
                 </div>
             
